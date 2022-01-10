@@ -3,12 +3,14 @@ import './App.css';
 
 import styled from 'styled-components';
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  margin-top: 50px;
+`;
 
 function App() {
   return (
     <Wrapper className="App">
-      Hello
+      <h1>Track-Star</h1>
     </Wrapper>
   );
 }
